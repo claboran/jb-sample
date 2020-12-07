@@ -15,7 +15,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@jb-sample/material-lib": ["libs/material-lib/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

@@ -1,0 +1,10 @@
+@import "~apps/jb-example/src/variables";
+.app {
+  &__toolbar {
+    background-image: linear-gradient(mat-color($mrk-showcase-primary, 500), mat-color($mrk-showcase-primary, 300));
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+}

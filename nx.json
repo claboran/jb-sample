@@ -22,5 +22,16 @@
       }
     }
   },
-  "projects": {}
+  "projects": {
+    "jb-example": {
+      "tags": []
+    },
+    "jb-example-e2e": {
+      "tags": [],
+      "implicitDependencies": ["jb-example"]
+    },
+    "material-lib": {
+      "tags": []
+    }
+  }
 }
